@@ -18,7 +18,8 @@ const quotes = [
     "This summer term was my favorite term since I got to spend it with you.",
     "I'll support you for all that you do.",
     "Everything is better when you are here.",
-    "You are truly beautiful."
+    "You are truly beautiful.",
+    "I like to hold my hands together and pretend I'm holding your hand"
 ];
 
 // Get the current date
