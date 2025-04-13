@@ -19,7 +19,9 @@ const quotes = [
     "I'll support you for all that you do.",
     "Everything is better when you are here.",
     "You are truly beautiful.",
-    "I like to hold my hands together and pretend I'm holding your hand"
+    "I like to hold my hands together and pretend I'm holding your hand",
+    "I think about you every day when I wake up",
+    "I wish I could always be with you",
 ];
 
 // Get the current date

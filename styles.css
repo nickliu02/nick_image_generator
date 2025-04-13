@@ -6,11 +6,12 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  padding: 0 10px; /* Add padding for smaller screens */
 }
 
 .date-box {
   margin-bottom: 20px;
-  text-align: center; /* Center the text */
+  text-align: center;
 }
 
 .date-box p {
@@ -32,17 +33,51 @@ h1 {
   color: #333;
 }
 
-/* Existing styles */
-
 .image-container {
   margin-top: 20px;
-  text-align: center; /* Center the image horizontally */
+  text-align: center;
 }
 
 .image-container img {
   width: 100%;
-  max-width: 400px; /* Limit the maximum width of the image */
-  height: auto; /* Maintain aspect ratio */
+  max-width: 400px;
+  height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+    height: auto; /* Let the height adjust to content */
+    padding: 20px; /* Add padding for mobile */
+  }
+
+  .quote-container {
+    padding: 15px;
+    font-size: 20px; /* Reduce font size for quotes */
+  }
+
+  h1 {
+    font-size: 22px; /* Slightly smaller header on mobile */
+  }
+
+  .image-container img {
+    max-width: 100%; /* Allow images to be as wide as the screen */
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 20px; /* Reduce font size for smaller mobile screens */
+  }
+
+  .quote-container {
+    padding: 10px;
+  }
+
+  .date-box p {
+    font-size: 16px; /* Adjust date font size */
+  }
 }
